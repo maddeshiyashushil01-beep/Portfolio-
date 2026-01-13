@@ -22,10 +22,15 @@
 <ul>
     <li><h5> MY PORTFOLIO</h1></li>
 
-  <h2>Contact</h2>
 
-  <p>Email: maddeshiyashushil01@gmail.com</p>
-  <p><a href="https://www.linkedin.com/in/shushil-maddeshiya-966ba9355">LinkedIn</a></p>
-  <p><a href="https://drive.google.com/file/d/16Ylx9yajFu1xkJ8Y6zIt2IuHNsk8ADYC/view">My Resume</a></p>
+ <h2>Contact</h2>
+
+
+<p>Email: maddeshiyashushil01@gmail.com</p>
+  <p>
+
+<a href="https://www.linkedin.com/in/shushil-maddeshiya-966ba9355">LinkedIn</a></p>
+  <p>
+<a href="https://drive.google.com/file/d/16Ylx9yajFu1xkJ8Y6zIt2IuHNsk8ADYC/view">My Resume</a></p>
 </body>
 </html>
