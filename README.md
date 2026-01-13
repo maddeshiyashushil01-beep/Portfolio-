@@ -14,7 +14,7 @@
   <p>I am an Electronics and Communication Engineering (ECE) student with a strong interest in web development. I am learning HTML, CSS and JavaScript and enjoy building responsive websites.</p>
   <h2>Skills</h2>
   <ul>
-    <li style=color: orange>HTML</li>
+    <li style="color:orange";>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
   </ul>
