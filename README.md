@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>My Portfolio</title>
+  <title><h1>My Portfolio</h1></title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
