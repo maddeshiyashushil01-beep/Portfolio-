@@ -1,0 +1,73 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  color: #222;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #0077b5;
+  margin-top: 30px;
+}
+
+/* Profile Image */
+img {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+/* Sections */
+section {
+  background: white;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Skills List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #e3f2fd;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #0077b5;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #005582;
+}
+
+/* Visitor Counter */
+#visitorCount {
+  color: green;
+  font-weight: bold;
+}
+
+/* Mobile Friendly */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+}
