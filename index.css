@@ -104,3 +104,28 @@ a:hover {
 .dark-mode li {
   background-color: #2a2a2a;
 }
+
+
+
+.social-icons {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  margin: 0 12px;
+  color: #0077b5;
+}
+
+.social-icons a:nth-child(2) {
+  color: #000; /* GitHub */
+}
+
+.social-icons a:nth-child(3) {
+  color: red; /* Resume */
+}
+
+.social-icons a:hover {
+  opacity: 0.7;
+}
