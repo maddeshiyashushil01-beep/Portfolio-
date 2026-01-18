@@ -129,3 +129,13 @@ a:hover {
 .social-icons a:hover {
   opacity: 0.7;
 }
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin: 10px 0;
+  font-size: 18px;
+}
