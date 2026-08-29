@@ -1,108 +1,486 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-<button id="darkBtn" onclick="toggleDarkMode()">
-  🌙 Dark Mode
-</button>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Shushil Maddeshiya | Portfolio</title>
 
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-  <h1>My Portfolio</h1>
-  <link rel="stylesheet" href="style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Maddeshiya Shushil</h1>
-  <center>
-    <img src="photo.jpg" width="150" height="100" alt="My photo">
-  </center>
-  <h3>ECE student | Web developer</h3>
-  <h2>About Me</h2>
-  <p>I am an Electronics and Communication Engineering (ECE) student with a strong interest in web development. I am learning HTML, CSS and JavaScript and enjoy building responsive websites.</p>
-  <h2>Skills</h2>
-  <ul>
-    <li style="color:orange";>HTML</li>
-    <li>CSS</li>
-    <li style="color: green";>JavaScript</li>
-  </ul>
- <h2>PROJECTS</h2>
-<ul>
-    <li><h5> MY PORTFOLIO</h1></li>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Shushil<span>.</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button id="darkBtn" onclick="toggleDarkMode()">
+            🌙
+        </button>
+
+    </nav>
 
 
-<h6>USE PERCENTAGE OF PROGRAMMING LANGUAGE</h6>
+    <!-- ================= HERO SECTION ================= -->
 
-HTML  ████████ 80% <br>
+    <section id="home" class="hero">
 
-CSS   ██████   60% <br>
+        <div class="hero-content">
 
-JS    █████    50%
+            <div class="profile-image">
+                <img src="photo.jpg" alt="Shushil Maddeshiya">
+            </div>
 
+            <p class="hello">👋 Hello, I'm</p>
 
+            <h1>Maddeshiya Shushil</h1>
 
- <h2>Contact</h2>
+            <h2>ECE Student | Web Developer</h2>
 
+            <p class="hero-text">
+                Building projects, learning technology and exploring
+                AI, Python and Web Development.
+            </p>
 
-<div class="social-icons">
+            <div class="hero-buttons">
 
-  <a href="https://www.linkedin.com/in/shushil-maddeshiya-966ba9355" target="_blank">
-    <i class="fab fa-linkedin"></i>
-  </a>
+                <a href="#projects" class="btn primary-btn">
+                    View Projects
+                </a>
 
-  <a href="https://github.com/maddeshiyashushil01-beep" target="_blank">
-    <i class="fab fa-github"></i>
-  </a>
+                <a href="https://drive.google.com/file/d/16Ylx9yajFu1xkJ8Y6zIt2IuHNsk8ADYC/view"
+                    target="_blank"
+                    class="btn secondary-btn">
 
-  <a href="https://drive.google.com/file/d/16Ylx9yajFu1xkJ8Y6zIt2IuHNsk8ADYC/view?usp=drivesdk" target="_blank">
-    <i class="fas fa-file-pdf"></i>
-  </a>
+                    <i class="fas fa-download"></i>
+                    Resume
 
-</div>
+                </a>
 
+            </div>
 
+        </div>
 
-<p>Email: maddeshiyashushil01@gmail.com</p>
-  <p>
-
-<a href="https://www.linkedin.com/in/shushil-maddeshiya-966ba9355">LinkedIn</a></p>
-  <p>
-<a href="https://drive.google.com/file/d/16Ylx9yajFu1xkJ8Y6zIt2IuHNsk8ADYC/view">My Resume</a></p>
-
-<link rel="stylesheet" href="index.css">
-
-
-
-<bottom><center>
-
-  <h3>Total Visitors: <span id="visitorCount">0</span></h3>
-
-  <script>
-    let count = localStorage.getItem("visitorCount");
-
-    if (count === null) {
-      count = 1;
-    } else {
-      count = Number(count) + 1;
-    }
-
-    localStorage.setItem("visitorCount", count);
-    document.getElementById("visitorCount").innerText = count;
-  </script>
+    </section>
 
 
- </center></bottom>
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <div class="section-title">
+
+            <p>GET TO KNOW ME</p>
+
+            <h2>About Me</h2>
+
+        </div>
 
 
-© 2026 Maddeshiya Shushil | Built with HTML, CSS & JS.
+        <div class="about-card">
+
+            <p>
+                I am an Electronics and Communication Engineering (ECE)
+                student with a strong interest in technology and innovation.
+            </p>
+
+            <p>
+                I am currently learning HTML, CSS, JavaScript, Python
+                and Artificial Intelligence. I enjoy building practical
+                projects and solving real-world problems using technology.
+            </p>
+
+        </div>
+
+    </section>
 
 
-<script>
-  function toggleDarkMode() {
-    document.body.classList.toggle("dark-mode");
-  }
+    <!-- ================= SKILLS ================= -->
 
-</script>
+    <section id="skills" class="section">
 
+        <div class="section-title">
+
+            <p>MY TECHNOLOGIES</p>
+
+            <h2>Skills</h2>
+
+        </div>
+
+
+        <div class="skills-container">
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-html5"></i>
+
+                <h3>HTML</h3>
+
+                <p>80%</p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-css3-alt"></i>
+
+                <h3>CSS</h3>
+
+                <p>70%</p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-js"></i>
+
+                <h3>JavaScript</h3>
+
+                <p>50%</p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-python"></i>
+
+                <h3>Python</h3>
+
+                <p>Learning</p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+        <div class="section-title">
+
+            <p>WHAT I HAVE BUILT</p>
+
+            <h2>My Projects</h2>
+
+        </div>
+
+
+        <div class="projects-container">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+
+                    <i class="fa-solid fa-user"></i>
+
+                </div>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A responsive personal portfolio website created
+                    using HTML, CSS and JavaScript.
+                </p>
+
+                <div class="tech">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="#" class="project-btn">
+                        <i class="fa-solid fa-eye"></i>
+                        Demo
+                    </a>
+
+                    <a href="https://github.com/maddeshiyashushil01-beep"
+                        target="_blank"
+                        class="project-btn">
+
+                        <i class="fa-brands fa-github"></i>
+                        Code
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+
+                    <i class="fa-solid fa-file-pdf"></i>
+
+                </div>
+
+                <h3>PDF Master Tool</h3>
+
+                <p>
+                    A web-based project designed to provide useful
+                    tools for working with PDF files.
+                </p>
+
+                <div class="tech">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="https://github.com/maddeshiyashushil01-beep/Pdf_master_tool"
+                        target="_blank"
+                        class="project-btn">
+
+                        <i class="fa-brands fa-github"></i>
+                        Code
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card">
+
+                <div class="project-icon">
+
+                    <i class="fa-solid fa-road"></i>
+
+                </div>
+
+                <h3>SmartRoad AI</h3>
+
+                <p>
+                    An innovative project idea focused on improving
+                    road issue reporting using technology and AI.
+                </p>
+
+                <div class="tech">
+
+                    <span>AI</span>
+                    <span>Web</span>
+                    <span>Innovation</span>
+
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="#" class="project-btn">
+
+                        Coming Soon
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section class="section">
+
+        <div class="section-title">
+
+            <p>MY JOURNEY</p>
+
+            <h2>Education</h2>
+
+        </div>
+
+
+        <div class="education-card">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            <div>
+
+                <h3>B.E. Electronics & Communication Engineering</h3>
+
+                <p>Government Engineering College, Bharuch</p>
+
+                <p class="education-year">
+                    Currently Studying
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+
+            <p>LET'S CONNECT</p>
+
+            <h2>Contact Me</h2>
+
+        </div>
+
+
+        <p class="contact-text">
+
+            Feel free to connect with me for projects,
+            collaboration and technology discussions.
+
+        </p>
+
+
+        <div class="social-icons">
+
+
+            <a href="https://www.linkedin.com/in/shushil-maddeshiya-966ba9355"
+                target="_blank"
+                aria-label="LinkedIn">
+
+                <i class="fab fa-linkedin"></i>
+
+            </a>
+
+
+            <a href="https://github.com/maddeshiyashushil01-beep"
+                target="_blank"
+                aria-label="GitHub">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+
+            <a href="mailto:maddeshiyashushil01@gmail.com"
+                aria-label="Email">
+
+                <i class="fa-solid fa-envelope"></i>
+
+            </a>
+
+
+            <a href="https://drive.google.com/file/d/16Ylx9yajFu1xkJ8Y6zIt2IuHNsk8ADYC/view"
+                target="_blank"
+                aria-label="Resume">
+
+                <i class="fa-solid fa-file-pdf"></i>
+
+            </a>
+
+
+        </div>
+
+
+        <p class="email">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            maddeshiyashushil01@gmail.com
+
+        </p>
+
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Maddeshiya Shushil |
+            Built with HTML, CSS & JavaScript
+        </p>
+
+        <p class="visitor">
+
+            Total Visitors:
+            <span id="visitorCount">0</span>
+
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script>
+
+        function toggleDarkMode() {
+
+            document.body.classList.toggle("dark-mode");
+
+        }
+
+
+        let count = localStorage.getItem("visitorCount");
+
+        if (count === null) {
+
+            count = 1;
+
+        } else {
+
+            count = Number(count) + 1;
+
+        }
+
+        localStorage.setItem("visitorCount", count);
+
+        document.getElementById("visitorCount").innerText = count;
+
+    </script>
 
 </body>
+
 </html>
